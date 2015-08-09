@@ -8,14 +8,24 @@ I use it on a 8th channel mapped to my trainer switch. pressing the switch toggl
 
 WIRING:
 
-PWM Cable:   Red to +5v of arduino.
+PWM Cable:  
+
+             Red to +5v of arduino.
+             
              White to Digital I/O pin 3 of Arduino
+             
              Black to ground of arduino
              
-Relay:       Coil pin 1 to Digital I/O pin 2 of Arduino
+Relay:       
+
+             Coil pin 1 to Digital I/O pin 2 of Arduino
+             
              Coil pin 2 to ground of arduino
+             
              Common (C) pin to Video Tx Video in
+             
              NC pin to primary camera video line
+             
              NO pin to second camera video line
              
 I used a Pro Mini Clone and a micro 1A relay and was able to put heat shrink around the entire unit, making it small and portable.
